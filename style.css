@@ -1,0 +1,35 @@
+/* Обнуление отступов и рамок для всех элементов */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Настройка шрифта для всего документа */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+}
+
+/* Контейнер для позиционирования блока вверху */
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+/* Стили для текста текущей погоды */
+.current-weather {
+  font-size: 1.5em;
+  color: #333;
+}
+
+#temp {
+  font-weight: bold;
+  color: #ff4500;
+}
